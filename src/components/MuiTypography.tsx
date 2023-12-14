@@ -14,8 +14,8 @@ export const MuiTypography = () => {
         <Typography variant="subtitle1"> subtitle1 Heading </Typography>
         <Typography variant="subtitle2"> subtitle2 Heading </Typography>
 
-        <Typography variant="body1"> body 1 Speaking at Spelman College in Atlanta, Powell noted that consumer prices, excluding volatile food and energy costs, rose at just a 2.5 percent annual rate in the past six months. That’s not far above the Fed’s 2 percent inflation target. </Typography>
-        <Typography variant="body2"> body 2 Still, more progress is needed, Powell said. He added, “It would be premature to conclude with confidence” that the Fed has raised its benchmark interest rate high enough to fully defeat inflation. </Typography>                  
+        <Typography variant="body1" align="left"> body 1 Speaking at Spelman College in Atlanta, Powell noted that consumer prices, excluding volatile food and energy costs, rose at just a 2.5 percent annual rate in the past six months. That’s not far above the Fed’s 2 percent inflation target. </Typography>
+        <Typography variant="body2" align="center"> body 2 Still, more progress is needed, Powell said. He added, “It would be premature to conclude with confidence” that the Fed has raised its benchmark interest rate high enough to fully defeat inflation. </Typography>                  
     </div>
   )
 }

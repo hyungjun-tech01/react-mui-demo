@@ -12,12 +12,12 @@ import {MuiCheckBox} from "./components/MuiCheckBox";
 function App() {
   return (
     <div className="App">
-     {/* <MuiTypography/> */}
+     <MuiTypography/>
      {/* <MuiButton /> */}
      {/* <MuiTextField /> */}
      {/* <MuiRadioButton /> */}
      {/* <MuiSelect /> */} 
-     <MuiCheckBox />
+     {/* <MuiCheckBox /> */}
     </div>
   );
 }
