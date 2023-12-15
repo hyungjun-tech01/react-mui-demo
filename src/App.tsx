@@ -12,11 +12,13 @@ import {MuiSwitch} from "./components/MuiSwitch";
 import {MuiRating} from "./components/MuiRating";
 import {MuiAutocomplete} from "./components/MuiAutocomplete";
 import {MuiLayout} from "./components/MuiLayout";
+import {MuiCard}  from "./components/MuiCard";
+import {MuiAccordion} from "./components/MuiAccordion";
 
 function App() {
   return (
     <div className="App">
-     <MuiTypography/>
+     {/* <MuiTypography/> */}
      {/* <MuiButton /> */}
      {/* <MuiTextField /> */}
      {/* <MuiRadioButton /> */}
@@ -25,7 +27,9 @@ function App() {
      {/* <MuiSwitch /> */}
      {/* <MuiRating /> */}
      {/* <MuiAutocomplete /> */}
-     <MuiLayout />
+     {/* <MuiLayout /> */}
+     {/* <MuiCard /> */}
+     <MuiAccordion />
     </div>
   );
 }
