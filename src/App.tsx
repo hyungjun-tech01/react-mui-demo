@@ -16,11 +16,19 @@ import {MuiCard}  from "./components/MuiCard";
 import {MuiAccordion} from "./components/MuiAccordion";
 import {MuiImageList} from "./components/MuiImageList";
 import {MuiNavbar} from "./components/MuiNavbar";
+import {MuiLink} from "./components/MuiLink";
+import {MuiBreadCrumb} from "./components/MuiBreadCrumb";
+import {MuiDrawer} from "./components/MuiDrawer";
+import {MuiSpeedDial} from "./components/MuiSpeedDial";
+import {MuiBottomNavigation} from "./components/MuiBottomNavigation";
+import {MuiAvatar} from "./components/MuiAvatar";
+import {MuiBadge} from "./components/MuiBadge";
 function App() {
   return (
     <div className="App">
+     {/* <MuiNavbar /> */}
      {/* <MuiTypography/> */}
-     <MuiButton />
+     {/* <MuiButton /> */}
      {/* <MuiTextField /> */}
      {/* <MuiRadioButton /> */}
      {/* <MuiSelect /> */} 
@@ -31,8 +39,15 @@ function App() {
      {/* <MuiLayout /> */}
      {/* <MuiCard /> */}
      {/* <MuiAccordion /> */}
-     {/* <MuiNavbar /> */}
+
      {/* <MuiImageList /> */}
+     {/* <MuiLink /> */}
+     {/* <MuiBreadCrumb /> */}
+     {/* <MuiDrawer /> */}
+     {/* <MuiSpeedDial /> */}
+     {/* <MuiBottomNavigation /> */}
+     {/* <MuiAvatar /> */}
+     <MuiBadge />
     </div>
   );
 }
