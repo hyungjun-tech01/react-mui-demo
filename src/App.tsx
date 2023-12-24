@@ -25,6 +25,9 @@ import {MuiAvatar} from "./components/MuiAvatar";
 import {MuiBadge} from "./components/MuiBadge";
 import {MuiList} from "./components/MuiList";
 import {MuiChip} from "./components/MuiChip";
+import {MuiTooltip} from "./components/MuiTooltip";
+import {MuiTable} from "./components/MuiTable";
+import {MuiAlert} from "./components/MuiAlert";
 function App() {
   return (
     <div className="App">
@@ -51,7 +54,10 @@ function App() {
      {/* <MuiAvatar /> */}
      {/* <MuiBadge /> */}
      {/* <MuiList /> */}
-     <MuiChip />
+     {/* <MuiChip /> */}
+     {/* <MuiTooltip /> */}
+     {/* <MuiTable /> */}
+     <MuiAlert />
     </div>
   );
 }
