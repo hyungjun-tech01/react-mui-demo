@@ -11,7 +11,7 @@ export const MuiProgress = () => {
 
         <LinearProgress />
         <LinearProgress color="success" />
-        <LinearProgress variant="determinate" value={60} />        
+        <LinearProgress variant="determinate" value={60} />
     </Stack>
   )
 }
