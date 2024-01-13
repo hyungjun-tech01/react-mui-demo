@@ -30,6 +30,7 @@ import {MuiTable} from "./components/MuiTable";
 import {MuiAlert} from "./components/MuiAlert";
 import {MuiSnakbar} from "./components/MuiSnakbar";
 import {MuiDialog} from "./components/MuiDialog";
+import {MuiProgress} from "./components/MuiProgress";
 function App() {
   return (
     <div className="App">
@@ -61,7 +62,8 @@ function App() {
      {/* <MuiTable /> */}
      {/* <MuiAlert /> */}
      {/* <MuiSnakbar /> */}
-     <MuiDialog />
+     {/* <MuiDialog /> */}
+     <MuiProgress />
     </div>
   );
 }
