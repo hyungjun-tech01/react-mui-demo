@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {LocalizationProvider} from "@mui/x-date-pickers";
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFnsV3';
+import {ko} from 'date-fns/locale/ko';
 
 import {MuiTypography} from "./components/MuiTypography";
 import {MuiButton} from "./components/MuiButton";
@@ -33,8 +36,10 @@ import {MuiDialog} from "./components/MuiDialog";
 import {MuiProgress} from "./components/MuiProgress";
 import {MuiSkeleton} from "./components/MuiSkeleton";
 import {MuiLoadingButton} from "./components/MuiLoadingButton";
+import {MuiPicker} from "./components/MuiPicker";
 function App() {
   return (
+    <LocalizationProvider dateAdapter = {AdapterDateFns}  adapterLocale={ko}>
     <div className="App">
      {/* <MuiNavbar /> */}
      {/* <MuiTypography/> */}
@@ -67,8 +72,10 @@ function App() {
      {/* <MuiDialog /> */}
      {/* <MuiProgress /> */}
      {/* <MuiSkeleton /> */}
-     <MuiLoadingButton />
+     {/* <MuiLoadingButton /> */}
+     <MuiPicker />
     </div>
+    </LocalizationProvider>
   );
 }
 
