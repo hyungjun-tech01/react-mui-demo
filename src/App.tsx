@@ -38,6 +38,7 @@ import {MuiSkeleton} from "./components/MuiSkeleton";
 import {MuiLoadingButton} from "./components/MuiLoadingButton";
 import {MuiPicker} from "./components/MuiPicker";
 import {MuiDateRangePicker} from "./components/MuiDateRangePicker";
+import {MuiTab} from "./components/MuiTab";
 function App() {
   return (
     <LocalizationProvider dateAdapter = {AdapterDateFns}  adapterLocale={ko}>
@@ -75,7 +76,8 @@ function App() {
      {/* <MuiSkeleton /> */}
      {/* <MuiLoadingButton /> */}
      {/* <MuiPicker /> */}
-     <MuiDateRangePicker />
+     {/* <MuiDateRangePicker /> */}
+     <MuiTab />
     </div>
     </LocalizationProvider>
   );
