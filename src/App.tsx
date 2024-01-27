@@ -41,6 +41,7 @@ import {MuiDateRangePicker} from "./components/MuiDateRangePicker";
 import {MuiTab} from "./components/MuiTab";
 import {MuiTimeline} from "./components/MuiTimeline";
 import {MuiMasonry} from "./components/MuiMasonry";
+import {MuiResponsiveness} from "./components/MuiResponsiveness";
 function App() {
   return (
     <LocalizationProvider dateAdapter = {AdapterDateFns}  adapterLocale={ko}>
@@ -81,7 +82,8 @@ function App() {
      {/* <MuiDateRangePicker /> */}
      {/* <MuiTab /> */}
      {/* <MuiTimeline /> */}
-     <MuiMasonry />
+     {/* <MuiMasonry /> */}
+     <MuiResponsiveness />
     </div>
     </LocalizationProvider>
   );
